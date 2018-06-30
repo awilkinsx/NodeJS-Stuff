@@ -20,7 +20,7 @@
  * 2nd request: 10 seconds
  * 3rd request: 15 seconds
  * 
- * This is due to the function blocking the node servers single event loop thread on each request. This deminstrates how any
+ * This is due to the function blocking the node servers single event loop thread on each request. This ddemonstrates how any
  * operation that takes time to complete can create issues acrossed the app.
  * 
  * Cluster manager:
